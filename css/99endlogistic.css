@@ -1,0 +1,103 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #000;
+	padding: 30px;
+}
+.logo h3{
+	color: white;
+}
+span {
+	color: #4DFFF3;
+}
+
+.nav-links a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 7px;
+	font-weight: bold;
+	font-family: pop;
+}
+.nav-links {
+	display: flex;
+	margin-right: 90px;
+}
+ul {
+	list-style-type: none;
+}
+.landing{
+	background-image: url("../images99log/99log.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.help {
+	color: white;
+	font-size: 30px;
+	background-color: green;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 8px;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	transition: background-color 2s ease, transform 2s ease;
+}
+.help:hover{
+	background-color:  #4DFFF3;
+	transform: scale(1.2);
+}
+
+header {
+	position: fixed;
+	width: 100%;
+}
+
+.container2 {
+	color: white;
+	
+}
+.right #track{
+	padding: 20px;
+	width: 400px;
+	background-color: black;
+	margin-top: 20px;
+	border-radius: 10px;
+	opacity: 0.7;
+	color: white;
+	font-size: 18px;
+	border: none;
+}
+.btn {
+	padding: 20px;
+	width: 100px;
+	background-color: green;
+	border-radius: 15px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	transition: background-color 2s ease;
+}
+.btn:hover {
+	background-color: #4DFFF3;
+}
